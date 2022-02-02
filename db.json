@@ -51,13 +51,13 @@
       "availability": "false"
     },
     {
-      "id": 6,
       "car": "BMW",
       "car_model": "6 Series",
       "car_color": "Purple",
-      "car_model_year": 2008,
+      "car_model_year": "2018",
       "price": "1258.99",
-      "availability": true
+      "availability": true,
+      "id": 6
     },
     {
       "car": "Maruti",
@@ -67,6 +67,15 @@
       "price": "2500",
       "availability": "true",
       "id": 7
+    },
+    {
+      "car": "toyota",
+      "car_model": "innova",
+      "car_color": "green",
+      "car_model_year": "2008",
+      "price": "1235.21",
+      "availability": "true",
+      "id": 8
     }
   ]
 }
