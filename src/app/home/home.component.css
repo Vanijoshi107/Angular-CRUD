@@ -1,0 +1,20 @@
+table{
+    border: 2px solid rgb(219, 219, 219);
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+@media all and (max-width:800px) {
+    .navbar-brand{
+        font-size: 1.8rem;
+    }
+}
+
+@media all and (max-width:500px) {
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+}
