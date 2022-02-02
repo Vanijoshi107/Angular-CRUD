@@ -27,24 +27,24 @@
         <div class="modal-body">
             <form [formGroup]="formValue">
                 <div class="form-group mb-2">
-                  <label for="exampleInputEmail1">Company Name</label>
-                  <input type="text" formControlName="car" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputtext2">Company Name</label>
+                  <input type="text" formControlName="car" class="form-control" id="exampleInputtext2" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group mb-2">
-                  <label for="exampleInputPassword1">Car model</label>
-                  <input type="text" formControlName="car_model"  class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputPassword2">Car model</label>
+                  <input type="text" formControlName="car_model"  class="form-control" id="exampleInputPassword2">
                 </div>
                 <div class="form-group mb-2">
-                  <label for="exampleInputEmail1">Color</label>
-                  <input type="text" formControlName="car_color"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputtext3">Color</label>
+                  <input type="text" formControlName="car_color"  class="form-control" id="exampleInputtext3" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group mb-2">
-                  <label for="exampleInputPassword1">Model Year</label>
-                  <input type="text" formControlName="car_model_year"  class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputPassword3">Model Year</label>
+                  <input type="text" formControlName="car_model_year"  class="form-control" id="exampleInputPassword3">
                 </div>
                 <div class="form-group mb-2">
-                  <label for="exampleInputEmail1">Price</label>
-                  <input type="text" formControlName="price"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputtext11">Price</label>
+                  <input type="text" formControlName="price" placeholder="in $"  class="form-control" id="exampleInputtext11" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group mb-2">
                   <label for="">Availability</label>
@@ -54,9 +54,9 @@
         </div>
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-secondary" id="close" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark" id="close" data-bs-dismiss="modal">Close</button>
 
-          <button type="button" class="btn btn-dark" (click)="postCar()" *ngIf="showAdd">Add Details</button>
+          <button type="button" class="btn btn-danger" (click)="postCar()" *ngIf="showAdd">Add Details</button>
 
           <button type="button" class="btn btn-dark" (click)="updateCar()" *ngIf="showUpdate">Update</button>
         </div>
